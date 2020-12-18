@@ -35,7 +35,6 @@
  - [Installation](#installation)
  - [Examples](https://oze4.github.io/material-table-core/)
  - [Documentation](#documentation)
-   - [`npm` Commands](#npm-commands)
  - [`material-table` Issue Tracker](https://oze4.github.io/material-table-core/#/issue-tracker)
  - [To-Do List](https://oze4.github.io/material-table-core/#/to-do)
  - [Contributing](#contributing)
@@ -63,21 +62,12 @@ import MaterialTable from "@material-table/core";
 
 ## Documentation
 
-For now, the existing material-table docs are valid.
+[Docs can be found here](https://material-table-core.com) *If you're interested in **contributing to our documentation**, the repo can be found [here](https://github.com/material-table-core/website) (we use Docusaurus 2)*
+
+For now, the existing material-table docs are valid. 
 
   - [material-table README](https://github.com/mbrn/material-table/blob/master/README.md)
   - [material-table API Documentation](https://material-table.com)
-  - [Demo Documentation](/.github/DemoDocumentation.md)
-
-## npm Commands
-
-<small>*make sure you are at the root of the project</small>
-
-| Command | Purpose | Notes |
-| --- | --- | --- |
-| `npm start` | Runs demo | Listens on port `:8080` |
-| `npm run build:demo` | Bundles the demo | Outputs to `/docs`. After making changes to the demo, you'll need to run this |
-| `npm run update:issue:tracker` | Update Issue Tracker with newly resolved issues | Searches `material-table` pull requests and issues for any comment that contains `/mtc::resolved`. [More info can be found here](/.github/DemoDocumentation.md#issue-tracker-documentation) |
 
 ## Contributing
 
