@@ -60,7 +60,7 @@ import MaterialTable from "@material-table/core";
 
 `//todo`
 
-For now, see the misc code [here](/.)
+For now, see the misc code [here](/.github/demos)
 
 ## Documentation
 
