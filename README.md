@@ -61,7 +61,7 @@ import MaterialTable from "@material-table/core";
 
 ## Documentation
 
-[Docs can be found here](https://material-table-core.com) *If you're interested in **contributing to our documentation**, the repo can be found [here](https://github.com/material-table-core/website) (we use Docusaurus 2)*
+[Docs can be found here](https://material-table-core.com). *If you're interested in **contributing to our documentation**, the repo can be found [here](https://github.com/material-table-core/website) (we use Docusaurus 2)*
 
 For now, the existing material-table docs are valid. 
 
