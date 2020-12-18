@@ -55,8 +55,7 @@ Currently, `material-table-core` is *at least* as stable as `material-table v1.5
  - `yarn add @material-table/core`
 
 ```javascript
-// If you can import it from `material-table` you
-// can import it from `@material-table/core`
+// If you can import it from `material-table` you can import it from `@material-table/core`
 import MaterialTable from "@material-table/core";
 ```
 
