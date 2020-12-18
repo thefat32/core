@@ -1,3 +1,5 @@
-# todo : needs to be organized!
+# under construction
 
-I am putting this here for documenation sake. We can use this code as demo code @oze4
+## Please note : some import paths may not actually exist!
+
+Within these demos, you may find some import don't actually exist. Although, this shouldn't take away from the logic.
