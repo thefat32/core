@@ -23,8 +23,16 @@
         src="https://img.shields.io/badge/www-material_table_core-blue"
       >
     </a>
+    <a href="https://gitter.im/MaterialTableCore/community">
+      <img 
+        title="gitter_chat" 
+        src="https://img.shields.io/gitter/room/material-table-core/core?color=blue"
+      >
+    </a>
   </p>
 </div>
+
+[![Gitter chat]()]()
 
 # Table of Contents
 
