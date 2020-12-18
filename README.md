@@ -32,16 +32,11 @@
   </p>
 </div>
 
-# Table of Contents
-
  - [Installation](#installation)
  - [Compatibility with `material-table`](#compatibility)
  - [Examples](#examples)
  - [Documentation](#documentation)
  - [Contributing](#contributing)
-
----
-
 
 ## Installation
 
