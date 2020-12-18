@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1><a target="_blank" rel="noopener noreferrer" href="https://material-table-core.com">@material-table/core</a></h1>
+  <h1>@material-table/core</h1>
 
   <p align="center">
     <a href="https://travis-ci.org/oze4/material-table-core">
@@ -16,11 +16,17 @@
       ></a>
   </p>
 
+  <p align="center">
+    <a href="https://material-table-core.com">
+      <img 
+        title="web" 
+        src="https://img.shields.io/badge/www-material_table_core-blue"
+      >
+    </a>
+  </p>
 </div>
 
-🚧 Documentation, including this `README`, is a work in progress 🚧
-
-✅ The code here is *at least* as stable as `material-table` `v1.57.2` ✅
+Currently, `material-table-core` is *at least* as stable as `material-table v1.57.2`
 
  - [Please check out `material-table` here](https://github.com/mbrn/material-table)
  - [Why does this repo exist?...and more here](/.github/MoreInfo.md)
@@ -28,8 +34,6 @@
 ---
 
 # Table of Contents
-
-[https://material-table-core.com](https://material-table-core.com)
 
  - [Compatibility with `material-table`](#compatibility)
  - [Installation](#installation)
