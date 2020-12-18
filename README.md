@@ -32,8 +32,6 @@
   </p>
 </div>
 
-[![Gitter chat]()]()
-
 # Table of Contents
 
  - [Compatibility with `material-table`](#compatibility)
