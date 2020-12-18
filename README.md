@@ -30,12 +30,9 @@
 
  - [Compatibility with `material-table`](#compatibility)
  - [Installation](#installation)
- - [Examples](https://oze4.github.io/material-table-core/)
+ - [Examples](#examples)
  - [Documentation](#documentation)
- - [`material-table` Issue Tracker](https://oze4.github.io/material-table-core/#/issue-tracker)
- - [To-Do List](https://oze4.github.io/material-table-core/#/to-do)
  - [Contributing](#contributing)
-   - [Demo Documentation](/.github/DemoDocumentation.md)
 
 ---
 
@@ -58,6 +55,12 @@ Currently, `material-table-core` is *at least* as stable as `material-table v1.5
 // If you can import it from `material-table` you can import it from `@material-table/core`
 import MaterialTable from "@material-table/core";
 ```
+
+## Examples
+
+`//todo`
+
+For now, see the misc code [here](/.)
 
 ## Documentation
 
