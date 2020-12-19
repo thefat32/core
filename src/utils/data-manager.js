@@ -59,34 +59,45 @@ export default class DataManager {
   }
 
   setColumns(columns) {
-    const undefinedWidthColumns = columns.filter(c => c.width === undefined);
+    const undefinedWidthColumns = columns.filter((c) => {
+      if (c.hidden) {
+        // Hidden column
+        return false;
+      }
+      if (c.columnDef && c.columnDef.tableData && c.columnDef.tableData.width) {
+        // tableData.width already calculated
+        return false;
+      }
+      // Calculate width if no value provided
+      return c.width === undefined;
+    });
     let usedWidth = ['0px'];
 
     this.columns = columns.map((columnDef, index) => {
+      const width = typeof columnDef.width === 'number' ? columnDef.width + 'px' : columnDef.width;
+
+      if (width && columnDef.tableData && columnDef.tableData.width !== undefined) {
+        usedWidth.push(width);
+      }
+
       columnDef.tableData = {
         columnOrder: index,
         filterValue: columnDef.defaultFilter,
         groupOrder: columnDef.defaultGroupOrder,
         groupSort: columnDef.defaultGroupSort || 'asc',
-        width: columnDef.width,
+        width,
+        initialWidth: width,
+        additionalWidth: 0,
         ...columnDef.tableData,
-        id: index
+        id: index,
       };
-
-      if (columnDef.width !== undefined) {
-        if (typeof columnDef.width === 'number') {
-          usedWidth.push(columnDef.width + 'px');
-        } else {
-          usedWidth.push(columnDef.width);
-        }
-      }
 
       return columnDef;
     });
 
     usedWidth = '(' + usedWidth.join(' + ') + ')';
     undefinedWidthColumns.forEach(columnDef => {
-      columnDef.tableData.width = `calc((100% - ${usedWidth}) / ${undefinedWidthColumns.length})`;
+      columnDef.tableData.width = columnDef.tableData.initialWidth = `calc((100% - ${usedWidth}) / ${undefinedWidthColumns.length})`;
     });
   }
 
