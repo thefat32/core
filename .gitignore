@@ -10,7 +10,6 @@ yarn.lock
 .env
 .docs/
 .docs/build
-.demo
 .DS_Store
 
 docs

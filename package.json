@@ -17,7 +17,7 @@
   "scripts": {
     "start": "webpack-dev-server --config ./demo/webpack.config.js --mode development --env.DEV_SERVER=true",
     "build": "babel --config-file ./configs/.babelrc src --out-dir dist",
-    "build:demo": "webpack --config=./demo/webpack.config.js --mode=development",
+    "build:demo": "webpack --config=./.demo/webpack.config.js --mode=development",
     "lint": "npm run eslint && npm run tsc",
     "eslint": "eslint src/** -c ./configs/.eslintrc",
     "tsc": "tsc --noEmit --lib es6,dom --skipLibCheck types/index.d.ts",
